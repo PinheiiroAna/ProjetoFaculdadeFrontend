@@ -1,0 +1,97 @@
+
+#bloco1{
+    margin-top: 20px;
+   
+}
+.body {
+    background-size: 100%;
+    margin: 0%;
+    padding: 0;
+    background-color: rgb(239, 239, 239);
+    
+}
+
+.p{
+    color: #0e4e7c;
+ 
+        
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imagem-logo{
+    height: 40px;
+    margin: 6px;
+    margin-top: 125px;
+}
+
+.container {
+   width: 100vw;
+   height: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.col-md-5 > h2{
+    color: #0e4e7c; 
+    
+   
+}
+    
+.col-md-7> h6{
+    color: #0e4e7c;
+}
+
+ 
+#bloco2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
+
+.quadrado-do-login {
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   flex-direction: column;
+   padding: 40px 35px;
+   background: rgb(254, 253, 253);
+   border-radius: 20px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.quadrado-do-login> input{
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(245, 236, 236);
+    color: #212529;
+    font-size: 12pt;
+    box-shadow: 0px 0px 0px black;
+    box-sizing: border-box;
+}
+.quadrado-do-login>label{
+    color: black;
+    margin-bottom: 10px;
+    width: 50px;
+}
+/* botões */
+.btn{
+    width: 200px;
+    padding: 10px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #0e4e7c;
+}
